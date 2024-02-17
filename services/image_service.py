@@ -1,6 +1,6 @@
 from PIL import Image
 from io import BytesIO
-from models import ImageData
+from models.image import ImageData
 from database.ravendb import store
 
 # Function to calculate image width and height

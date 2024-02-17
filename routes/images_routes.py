@@ -1,5 +1,5 @@
 from fastapi import APIRouter, UploadFile, File,HTTPException
-from models import ImageData ,Imagebase64
+from models.image import ImageData ,Imagebase64
 from database.ravendb import store
 from services.image_service import calculate_image_dimensions, save_image_data
 import base64

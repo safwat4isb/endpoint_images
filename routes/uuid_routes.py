@@ -1,5 +1,5 @@
 from fastapi import APIRouter,Path 
-from models import UUIDResponse
+from models.image import UUIDResponse
 import uuid
 
 router = APIRouter()

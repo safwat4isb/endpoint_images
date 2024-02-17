@@ -1,4 +1,4 @@
-from config import URLS, DB_NAME
+from config.config import URLS, DB_NAME
 from pyravendb.store import document_store
 
 # Initialize RavenDB document store and define image-related functions
